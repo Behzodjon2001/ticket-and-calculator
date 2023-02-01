@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="buyandcal">
+        <h2 class="buyt">Buying a ticket</h2>
+        <button><a href="./index2.html" class="gotocal">Go to Calculator</a></button>
+    </div>
+    <div class="main-option">
+        <div>
+            <h3>Age</h3>
+            <!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
+            <div class="custom-select select1" style="width:200px;">
+                <select id="select1">
+                    <option >Age</option>
+    <option value="0_7">from 0 to 7</option>
+    <option value="7_30">from 7 to 30</option>
+    <option value="30_60">from 30 to 60</option>
+    <option value="60">from 60</option>
+  </select>
+            </div>
+        </div>
+        <div>
+            <h3>Gender</h3>
+            <div class="custom-select select2" style="width:200px;">
+                <select id="select2">
+                    <option>Gender</option>
+    <option value="erkak">Erkak</option>
+    <option value="ayol">Ayol</option>
+  </select>
+            </div>
+        </div>
+        <div>
+            <h3>Nationality</h3>
+            <div class="custom-select select3" style="width:200px;">
+                <select id="select3">
+                    <option>Nationality</option>
+    <option value="uzbek">Uzbek</option>
+    <option value="rus">Russian</option>
+    <option value="other">Other</option>
+  </select>
+            </div>
+        </div>
+
+    </div>
+    <div class="btnres">
+        <div>
+            <button type="button" id="btn" class="ticket-btn">Buy Ticket</button>
+        </div>
+        <div>
+            <p id="res" class="resultbtn">Result </p>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
